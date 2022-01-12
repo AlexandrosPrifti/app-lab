@@ -25,6 +25,14 @@ button {
   color: black;
 }
 
+.h2 {
+  font-size: 45px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .navigator li {
     display: inline; 
     padding: 20px;
@@ -188,3 +196,232 @@ main {
       /* padding: 25px 0; */
     }
   }
+
+  .under-entry-section {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .images-container {
+    text-align: center;
+  }
+
+
+  .second-section {
+    padding: 140px 0; 
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .second-section_img {
+    min-width: 55%;
+  }
+
+  .second-section_content {
+    max-width: 400px;
+  }
+
+  .title-size {
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .image-left {
+    padding: 15px;
+    max-width: 550px;
+    display: flex;
+    padding-top: 35px;
+  }
+
+
+  .second-section-paragraph {
+    font-size: 20px;
+  }
+
+
+  .red-title {
+    color: red;
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .blue-title {
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .green-title {
+    color: green;
+    font-size: 25px;
+    margin: 0;
+  }
+
+
+  .space-img {
+    padding-right: inherit;
+    object-fit: contain;
+  }
+
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-column {
+    flex-direction: column;
+    padding: 10px 80px;
+  }
+
+
+  .third-section {
+    display: flex;
+  }
+
+  .third-section-title {
+    max-width: 50%;
+    padding: 0 76px 0 228px;
+    font-size: 45px;
+  }
+
+  .third-section-paragraph {
+    max-width: 50%;
+    padding: 80px 121px;
+    font-size: 20px;
+  }
+
+  .forth-section {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding: 80px 120px;
+  }
+
+  .fifth-section {
+    padding: 20px 0 60px;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .fifth-section_img {
+    min-width: 55%;
+    padding-left: 100px;
+  }
+
+  .fifth-section_content {
+    max-width: 400px;
+    padding-left: 70px;
+  }
+
+
+  .fifth-title-size {
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fifth-section-paragraph {
+    font-size: 20px;
+  }
+
+  .fifth-btn {
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 55px;
+    overflow-x: hidden;
+    font-size: 15px;
+  }
+
+  .sixth-section-content {
+    text-align: center;
+    align-content: center;
+    padding-top: 100px;
+  }
+
+
+  .sixth-title-size {
+    padding: 10px 425px;
+    font-size: 45px;
+    margin: 0;
+  }
+
+
+  .sixth-section-paragraph {
+    padding: 10px 345px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 150px;
+  }
+  
+  .flex-container > div {
+    width: 270px;
+    margin: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+.accordion {
+  padding: 20px;
+  background: #d6d6d6;
+  color: #061b38;
+  margin-bottom: 10px;
+}
+
+.accordion-title {
+  position: relative;
+}
+
+.accordion-title .icon {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion .accordion-title .minus {
+  display: none;
+}
+
+.accordion.show .accordion-title .minus {
+  display: block;
+}
+
+.accordion.show .accordion-title .plus {
+  display: none;
+}
+
+.accordion-title > * {
+  margin: 0;
+}
+
+.accordion-content > * {
+  margin: 0;
+}
+
+.accordion-content {
+  /* padding-top: 20px; */
+  /* display: none; */
+  height: 0;
+  /* transition: all 3s; */
+  overflow: hidden;
+}
+
+.accordion.show .accordion-content {
+  padding-top: 20px;
+  height: initial;
+}
